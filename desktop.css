@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://css.gg/edit-contrast.css');
+
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+
+/*
+font-family: 'Poppins', sans-serif;
+font-weight:600;
+
+
+
+font-family: 'Open Sans', sans-serif
+font-wight:400;
+
+font-family: 'Open Sans', sans-serif
+font-weight:700;
+*/
+
+/*top 50px, right 100px, bottom 60px, left 100px */
+
+
+
+header{
+    background-image: url("images/bg-hero-desktop.svg");
+    background-color: hsl(193, 100%, 96%);
+}
+
+
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding:/*top*/ 50px /*right*/80px
+    /*bottom*/60px /*left*/ 80px;
+}
+
+.top img{
+    width: 200px;
+    height: 30px;
+}
+
+.top button{
+    border-radius: 25px;
+    background-color: white ;
+    padding: 15px 60px 15px 60px; 
+    border-style: none;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: hsl(192, 100%, 9%);
+    cursor: pointer;
+}
+
+.top button:active{
+    color: hsl(208, 11%, 55%);
+}
+
+.top-1{
+    display: flex;
+    padding :/*top*/ 0px /*right*/80px
+    /*bottom*/100px /*left*/ 80px;
+    justify-content: space-between;
+}
+
+
+.top-1 img{
+    width: 690px;
+}
+
+.top-1 h1{
+    text-align: left;
+    padding: /*top*/ 70px /*right*/50px
+    /*bottom*/30px /*left*/ 0px;
+    font-size: 40px;
+    line-height: 1.5;
+    font-weight: 700;
+    color: hsl(192, 100%, 9%);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.top-1 p{
+    text-align: left;
+    padding: /*top*/ 0px /*right*/80px
+    /*bottom*/20px /*left*/ 0px;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: hsl(192, 100%, 9%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.top-1 button{
+    margin: 10px 20px 50px 0px;
+    padding: 12px 68px 20px 68px;
+    border-radius: 25px;
+    border-style: none;
+    background-color: hsl(322, 100%, 66%);
+    color: rgba(255, 255, 255, 0.845);
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.top-1 button:active{
+    opacity: 0.6;
+}
+
+/* This part will give the main a padding that will hold the images*/
+
+
+main{
+    padding: 150px 100px 150px 100px;
+}
+
+/* Growth */
+
+.growth{
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 25px;
+    background-color: white ;
+    padding : 5px 25px 5px 25px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    margin-bottom: 40px;
+}
+
+.growth img{
+     width: 460px;
+     padding:  /*top*/ 45px /*right*/10px
+    /*bottom*/60px /*left*/ 40px;
+}
+
+.growth h2{
+    padding: 150px 150px 20px 100px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    color: hsl(192, 100%, 9%);
+    text-align: left;
+    line-height: 1;
+}
+
+.growth span{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+    font-size: 18px;
+    color:  hsl(208, 11%, 55%)
+}
+
+/* conversations */
+
+.conversation{
+    display: flex;
+    border-radius: 25px;
+    background-color: white ;
+    padding : 5px 25px 5px 25px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    margin-bottom: 40px;
+}
+
+.conversation img{
+     width: 550px;
+     padding:  /*top*/ 75px /*right*/10px
+    /*bottom*/90px /*left*/ 120px;
+}
+
+.conversation h2{
+    padding: 150px 0px 20px 150px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    color: hsl(192, 100%, 9%);
+    text-align: left;
+    line-height: 1;
+}
+
+.conversation span{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+    font-size: 18px;
+    color:  hsl(208, 11%, 55%)
+}
+
+/* users */
+
+.users{
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 25px;
+    background-color: white ;
+    padding : 5px 25px 5px 25px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    margin-bottom: 170px;
+}
+
+.users img{
+     width: 460px;
+     padding:  /*top*/ 45px /*right*/10px
+    /*bottom*/60px /*left*/ 40px;
+}
+
+.users h2{
+    padding: 150px 150px 20px 100px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    color: hsl(192, 100%, 9%);
+    text-align: left;
+    line-height: 1;
+}
+
+.users span{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+    font-size: 18px;
+    color:  hsl(208, 11%, 55%)
+}
+
+
+/*ready */
+
+.ready{
+    border-radius: 25px;
+    background-color: white ;
+    padding : 40px 25px 25px 25px;
+    margin: 0px 350px 40px 350px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    position: relative;
+
+}
+.ready h2{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+    padding-bottom: 25px;
+    padding-top: 30px;
+     color: hsl(192, 100%, 9%);
+   /* font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight:700;*/
+
+}
+
+
+
+.ready button{
+    margin: /* Top*/ 20px /*Right*/  20px 
+    /*Bottom*/ 30px /*Left*/  270px;
+    padding: 21px 90px 21px 90px;
+    border-radius: 60px;
+    border-style: none;
+    background-color: hsl(322, 100%, 66%);
+    color: rgba(255, 255, 255, 0.845);
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: rgba(26, 26, 36, 0.471) 0px 0px 16px;
+}
+
+.ready button:active{
+    opacity: 0.6;
+}
+
+footer{
+    background-color: hsl(192, 100%, 9%);
+    padding-top: 150px;
+    margin-top:-290px;
+    display: flex;
+}
+
+.foot{
+    border-collapse: collapse;
+    padding: /* Top*/ 50px /*Right*/  120px 
+    /*Bottom*/ 130px /*Left*/ 120px;
+}
+
+/* to chnage the huddle logo
+to white*/ 
+.foot-logo{
+    -webkit-filter: grayscale(100%) invert(100%);
+    filter: grayscale(100%) invert(150%);
+    
+}
+
+.foot-logo{
+    width: 40px;
+    margin-bottom: 40px;
+}
+
+.location h3{
+    color: hsl(193, 100%, 96%);
+    margin-left: 35px;
+    padding-right: 800px;
+    font-size: 14px;
+    margin-top: -22px;
+    margin-bottom: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400; 
+    line-height: 1.5;
+}
+.location img{
+    width:10px;
+}
+
+.telephone h3{
+    color: hsl(193, 100%, 96%);
+    margin-left: 35px;
+    padding-right: 500px;
+    font-size: 14px;
+    margin-top: -22px;
+    margin-bottom: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400; 
+}
+.telephone img{
+    width:15px;
+}
+
+.email h3{
+    color: hsl(193, 100%, 96%);
+    margin-left: 35px;
+    padding-right: 500px;
+    font-size: 14px;
+    margin-top: -22px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400; 
+}
+.email img{
+    width:15px;
+}
+
+#items-1{
+    padding-bottom: 20px;
+    color: rgba(255, 255, 255, 0.897);
+    list-style: none;
+    padding-left: px;
+    margin-left: -780px;
+    margin-top: 125px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+}
+
+#items-1 a{
+    text-decoration: none;
+    list-style: none;
+    line-height: 2.5;
+    margin-top: 900px;
+    color: rgba(255, 255, 255, 0.897);
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.list{
+    list-style: none;
+}
+
+.items-1 .list{
+    margin-top: - 50px;
+}
+
+#items-2{
+    padding-bottom: 20px;
+    color: rgba(255, 255, 255, 0.897);
+    list-style: none;
+    padding-left: px;
+    margin-left: -570px;
+    margin-top: 125px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+}
+
+#items-2 a{
+    text-decoration: none;
+    list-style: none;
+    line-height: 2.5;
+    margin-top: 800px;
+    color: rgba(255, 255, 255, 0.897);
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+.items-2 .list{
+    margin-top: -45px;
+}
+
+#items-1 a:active{
+    text-decoration: underline;
+}
+
+#items-2 a:active{
+    text-decoration: underline;
+}
+
+
+/* font awesome */
+.font-awesome{
+    display: flex;
+    padding: 30px 50px 15px 50px;
+    margin-left: -420px;
+    margin-top: 100px;
+}
+
+.fa {
+  padding: /* Top*/ 5px /*Right*/  0px 
+    /*Bottom*/ 5px /*Left*/  7px;
+  font-size: 30px;
+  width: 30px;
+  text-decoration: none;
+  margin: 5px;
+  border-radius: 50%;
+  border: 1px solid black;
+-webkit-filter: grayscale(100%) invert(100%);
+filter: grayscale(100%) invert(150%);
+
+
+}
+
+.fa:active{
+    background-color:  hsl(192, 100%, 9%);
+    border: thin solid hsl(322, 100%, 66%);
+}
+
+.fa-facebook:active{
+    background-color:  hsl(192, 100%, 9%);
+    border: thin solid hsl(322, 100%, 66%);
+}
+
+.copyright h6{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.808);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight:100;
+    margin-left: -460px;
+    margin-top:  150px;
+    font-weight: 400;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
