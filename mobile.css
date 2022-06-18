@@ -81,7 +81,7 @@ header{
 }
 
 .top-1 button{
-    margin: 10px 20px 50px 55px;
+    margin: 10px 20px 50px 80px;
     padding: 12px 68px 20px 68px;
     border-radius: 25px;
     border-style: none;
@@ -249,7 +249,7 @@ main{
 
 .ready button{
     margin: /* Top*/ 5px /*Right*/  20px 
-    /*Bottom*/ 40px /*Left*/  50px;
+    /*Bottom*/ 40px /*Left*/  75px;
     padding: 10px 45px 10px 45px;
     border-radius: 25px;
     border-style: none;
@@ -389,7 +389,7 @@ to white*/
 .font-awesome{
     display: flex;
     padding: 30px 50px 15px 50px;
-    margin-left: 80px;
+    margin-left: 110px;
 }
 
 .fa {
