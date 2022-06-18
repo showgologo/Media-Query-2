@@ -405,17 +405,19 @@ to white*/
 filter: grayscale(100%) invert(150%);
 
 
+
 }
 
-.fa:active{
-    background-color:  hsl(192, 100%, 9%);
-    border: thin solid hsl(322, 100%, 66%);
+
+.font-awesome a:active {
+     color: hsl(322, 100%, 66%);
+     border: thin solid hsl(322, 91%, 50%) ;
+    
+     background: none;
+     
+
 }
 
-.fa-facebook:active{
-    background-color:  hsl(192, 100%, 9%);
-    border: thin solid hsl(322, 100%, 66%);
-}
 
 .copyright h6{
     text-align: center;

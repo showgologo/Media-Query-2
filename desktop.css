@@ -449,6 +449,7 @@ filter: grayscale(100%) invert(150%);
 .fa-facebook:active{
     background-color:  hsl(192, 100%, 9%);
     border: thin solid hsl(322, 100%, 66%);
+
 }
 
 .copyright h6{
@@ -460,6 +461,15 @@ filter: grayscale(100%) invert(150%);
     margin-left: -460px;
     margin-top:  150px;
     font-weight: 400;
+
+}
+
+.font-awesome a:active {
+     color: hsl(322, 100%, 66%);
+     border: thin solid hsl(322, 91%, 50%) ;
+    
+     background: none;
+     
 
 }
 
